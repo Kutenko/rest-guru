@@ -14,9 +14,9 @@
 		.rest-item
 			.rest-item__image
 				img.rest-image__img(src=restImages[0], alt="")
-				span.rest-item__working 
+				.rest-item__working 
 					| Открыто до&nbsp;
-					= workingTime
+					span.rest-item__working-time= workingTime
 			.rest-item__title
 				h3.rest-info__title= restName
 				.rest-info__rest-rate

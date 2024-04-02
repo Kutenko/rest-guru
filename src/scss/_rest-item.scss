@@ -1,191 +1,204 @@
 // Styles for an element in the list of restaurants
 .rest-item {
-    display: flex;
-    flex-direction: column;
-    // max-width: 285px;
+	display: flex;
+	flex-direction: column;
+	// max-width: 285px;
 }
 
 .rest-image__img {
-    width: 100%;
+	width: 100%;
 }
 
 .rest-item__image {
-    position: relative;
-    overflow: hidden;
-    border-radius: 20px;
-    max-height: 192px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 20px;
+	max-height: 192px;
 }
 
 .rest-item__working {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    right: auto;
-    bottom: auto;
-    border-radius: 16px;
-    padding: 8px 12px;
-    color: $color-white;
-    backdrop-filter: blur(48px);
-    background: rgba(47, 34, 36, 0.16);
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	right: auto;
+	bottom: auto;
+	border-radius: 16px;
+	padding: 8px 12px;
+	color: #d0c8c9;
+	font-family: $font-family;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 125%;
+	backdrop-filter: blur(48px);
+	background: rgba(47, 34, 36, 0.16);
+}
+
+.rest-item__working-time{
+	font-family: $font-family;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 125%;
+	color: #f6f4f4;
 }
 
 .rest-info {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	justify-content: space-between;
 }
 
 .rest-item__title {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .rest-info__title {
-    font-family: $font-family;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 120%;
-    color: $color-wine-chocolate;
-    margin: 8px 0 0 0;
+	font-family: $font-family;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 120%;
+	color: $color-wine-chocolate;
+	margin: 8px 0 0 0;
 }
 
 .rest-info__rest-rate {
-    display: flex;
-    flex-direction: row;
-    text-align: right;
-    justify-content: space-between;
-    gap: 4px;
-    align-items: center;
+	display: flex;
+	flex-direction: row;
+	text-align: right;
+	justify-content: space-between;
+	gap: 4px;
+	align-items: center;
 }
 
 .rest-rate__icon {
-    padding: 2px;
-    display: flex;
-    align-items: center;
+	padding: 2px;
+	display: flex;
+	align-items: center;
 }
 
 .rest-rate__rate {
-    font-family: $third-family;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 100%;
-    color: $color-ruby-red;
+	font-family: $third-family;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 100%;
+	color: $color-ruby-red;
 }
 
 .rest-rate__vote {
-    font-family: $font-family;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 100%;
-    color: $color-misty-rose;
+	font-family: $font-family;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 100%;
+	color: $color-misty-rose;
 }
 
 .rest-info__block2,
 .rest-info__block1 {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .rest-info__v-divider {
-    width: 1px;
-    height: 100%;
-    background-color: $color-misty-rose;
+	width: 1px;
+	height: 100%;
+	background-color: $color-misty-rose;
 }
 
 .rest-info__road-time {
-    display: flex;
-    flex-direction: row;
-    text-align: right;
-    font-family: $font-family;
-    font-weight: 700;
-    font-size: 11px;
-    line-height: 100%;
-    color: $color-mid;
-    margin: 0 0 6px;
-    justify-content: end;
-    align-items: center;
-    gap: 4px;
+	display: flex;
+	flex-direction: row;
+	text-align: right;
+	font-family: $font-family;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 100%;
+	color: $color-mid;
+	margin: 0 0 6px;
+	justify-content: end;
+	align-items: center;
+	gap: 4px;
 }
 
 .road-time__icon {
-    padding: 4px 2px 2px;
-    display: flex;
-    align-items: center;
+	padding: 4px 2px 2px;
+	display: flex;
+	align-items: center;
 }
 
 .rest-info__road-dist {
-    text-align: right;
-    font-family: $font-family;
-    font-weight: 700;
-    font-size: 11px;
-    line-height: 125%;
-    color: $color-light;
+	text-align: right;
+	font-family: $font-family;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 125%;
+	color: $color-light;
 }
 
 .rest-info__rate-city {
-    font-family: $font-family;
-    font-weight: 500;
-    font-size: 11px;
-    line-height: 125%;
-    color: $color-light;
+	font-family: $font-family;
+	font-weight: 500;
+	font-size: 11px;
+	line-height: 125%;
+	color: $color-light;
 }
 
 .rest-info__cuisine-type {
-    display: flex;
-    flex-direction: row;
-    font-family: $font-family;
-    font-weight: 500;
-    font-size: 11px;
-    color: $color-mid;
-    gap: 8px;
-    align-items: center;
+	display: flex;
+	flex-direction: row;
+	font-family: $font-family;
+	font-weight: 500;
+	font-size: 11px;
+	color: $color-mid;
+	gap: 8px;
+	align-items: center;
 }
 
 .cuisine-type__icon {
-    padding: 2px 2px 3px;
-    display: flex;
-    align-items: center;
+	padding: 2px 2px 3px;
+	display: flex;
+	align-items: center;
 }
 
 .rest-info__rest-price {
-    display: flex;
-    flex-direction: row;
-    font-family: $font-family;
-    font-weight: 500;
-    font-size: 11px;
-    color: $color-mid;
-    align-items: center;
-    gap: 8px;
+	display: flex;
+	flex-direction: row;
+	font-family: $font-family;
+	font-weight: 500;
+	font-size: 11px;
+	color: $color-mid;
+	align-items: center;
+	gap: 8px;
 }
 
 .rest-price__bill {
-    display: flex;
-    align-items: center;
-    gap: 4px;
+	display: flex;
+	align-items: center;
+	gap: 4px;
 }
 
 .rest-price__bill-icon {
-    padding: 2px 3px;
-    display: flex;
-    align-items: center;
+	padding: 2px 3px;
+	display: flex;
+	align-items: center;
 }
 
 .rest-price__icon-wrap {
-    display: flex;
-    flex-direction: row;
-    gap: 2px;
+	display: flex;
+	flex-direction: row;
+	gap: 2px;
 }
 
 .rest-price__icon {
-    width: 9px;
-    height: 12px;
-    background-image: url(../images/ruble-icon-disabled.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    &.active {
-        background-image: url(../images/ruble-icon.svg);
-    }
+	width: 9px;
+	height: 12px;
+	background-image: url(../images/ruble-icon-disabled.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+
+	&.active {
+		background-image: url(../images/ruble-icon.svg);
+	}
 }

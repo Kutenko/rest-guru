@@ -257,9 +257,21 @@ body {
   bottom: auto;
   border-radius: 16px;
   padding: 8px 12px;
-  color: #F6F6F6;
+  color: #d0c8c9;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 125%;
   backdrop-filter: blur(48px);
   background: rgba(47, 34, 36, 0.16);
+}
+
+.rest-item__working-time {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 125%;
+  color: #f6f4f4;
 }
 
 .rest-info {
