@@ -1,0 +1,12 @@
+section.rest
+	.container
+		.rest-title
+			h2.rest-title__title Рестораны Москвы
+			a.rest-title__all-rest(href="#") Все рестораны
+		.rest-slider
+			.swiper-container
+				.swiper-wrapper
+					each _ in [1, 2, 3, 4, 5, 6, 7, 8]
+						include ../blocks/rest-item
+			.swiper-button-prev
+			.swiper-button-next

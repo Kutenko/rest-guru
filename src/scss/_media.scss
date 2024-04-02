@@ -1,0 +1,59 @@
+// Styles for responsive design
+@media screen and (max-width: 1280px) {
+	.swiper-button-next {
+			right: 10px;
+	}
+	.swiper-button-prev {
+			left: 10px;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.top-side__search {
+			display: none;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.brds {
+			display: none;
+	}
+	.rest-title__title {
+			font-size: 24px;
+	}
+	.rest-title__all-rest {
+			display: none;
+	}
+	.rest-price__bill,
+	.rest-rate__vote,
+	.rest-info__v-divider,
+	.rest-info__block1,
+	.rest-info__block2 {
+			display: none;
+	}
+	.rest-info__block1 {
+			display: grid;
+			grid-template-areas: "cuisine-type rest-price" "rate-city rate-city";
+			justify-content: space-between;
+			width: 100%;
+	}
+	.rest-info__cuisine-type {
+			grid-area: cuisine-type;
+	}
+	.rest-info__rate-city {
+			grid-area: rate-city;
+	}
+	.rest-info__rest-price {
+			grid-area: rest-price;
+	}
+	.swiper-button-next,
+	.swiper-button-prev {
+			display: none;
+	}
+}
+
+@media (max-width: 320px) {
+	body {
+			zoom: 0.8;
+	}
+}

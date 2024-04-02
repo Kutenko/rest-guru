@@ -1,0 +1,37 @@
+.brds {
+	background: $color-gray;
+}
+
+.brds-block {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	padding: 10px 0 11px;
+
+	li {
+		&::after {
+			content: "/";
+			font-family: $font-family;
+			font-weight: 400;
+			font-size: 14px;
+			color: #FFFFFF;
+			text-decoration: none;
+		}
+
+		a {
+			font-family: $font-family;
+			font-weight: 400;
+			font-size: 14px;
+			color: #FFFFFF;
+			text-decoration: none;
+			margin-right: 6px;
+			margin-left: 2px;
+		}
+
+		&:last-child {
+			&::after {
+				display: none;
+			}
+		}
+	}
+}

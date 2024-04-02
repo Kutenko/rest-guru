@@ -1,0 +1,54 @@
+$font-path: '../fonts/';
+
+$font-roboto: 'Roboto', sans-serif;
+$font-akrobat: 'Akrobat', sans-serif;
+$font-inter: 'Inter', sans-serif;
+
+$font-roboto-path: '#{$font-path}Roboto-Regular';
+$font-roboto-bold-path: '#{$font-path}Roboto-Bold';
+$font-roboto-medium-path: '#{$font-path}Roboto-Medium';
+$font-akrobat-path: '#{$font-path}Akrobat-Regular';
+$font-inter-path: '#{$font-path}Inter-SemiBold';
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('#{$font-roboto-path}.woff2') format('woff2'),
+	url('#{$font-roboto-path}.woff') format('woff'),
+	url('#{$font-roboto-path}.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('#{$font-roboto-bold-path}.woff2') format('woff2'),
+	url('#{$font-roboto-bold-path}.woff') format('woff'),
+	url('#{$font-roboto-bold-path}.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('#{$font-roboto-medium-path}.woff2') format('woff2'),
+	url('#{$font-roboto-medium-path}.woff') format('woff'),
+	url('#{$font-roboto-medium-path}.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Akrobat';
+	src: url('#{$font-akrobat-path}.woff2') format('woff2'),
+	url('#{$font-akrobat-path}.woff') format('woff'),
+	url('#{$font-akrobat-path}.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('#{$font-inter-path}.otf') format('opentype');
+	font-weight: bold;
+	font-style: normal;
+}

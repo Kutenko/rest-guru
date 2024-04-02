@@ -1,0 +1,26 @@
+@import '_variables';
+@import '_fonts';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $color-white;
+}
+
+.container {
+    max-width: 1240px;
+    min-width: 320px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+@import '_header';
+@import '_breadcrumbs';
+@import '_rest';
+@import '_rest-item';
+@import '_swiper-custom';
+@import '_media';

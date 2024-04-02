@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "gulp": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-replace": "^1.1.4",
+    "sass": "^1.72.0",
+    "swiper": "^11.1.0"
+  },
+  "name": "rest-guru",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.10.0",
+    "gulp-imagemin": "^9.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-webpack": "^1.5.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.0.0",
+    "webpack-stream": "^7.0.0"
+  }
+}
